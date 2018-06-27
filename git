@@ -4,5 +4,21 @@ git commit -m 'mensagem'
 
 git push -u origin master
 
-
+##não utilizar
 forçar: https://github.com/murilosisnando2003/python4linux.git
+
+
+git init
+git status
+git  add
+git commit -m
+git push origin master
+git pull origin master
+
+#criar novo arquivo
+echo  \#\!$(which python3) > par.py && chmod +x par.py
+
+
+git add .
+git status
+git push -u origin  master
