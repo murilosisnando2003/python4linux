@@ -18,7 +18,8 @@ git pull origin master
 #criar novo arquivo
 echo  \#\!$(which python3) > par.py && chmod +x par.py
 
-
+git init
 git add .
 git status
+git commit -m 'mensagem'
 git push -u origin  master
