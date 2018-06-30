@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
-with open ('frutas.txt','r') as arquivo:
+try:
+with open ('frutas500.txt','r') as arquivo:
     var = arquivo.readlines()
 alterado = []
 cont = 1
