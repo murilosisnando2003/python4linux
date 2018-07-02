@@ -29,3 +29,6 @@ chmod +x teste1.py
 sudo apt-get install python3-pip3
 sudo apt-get update
 pip3 install virtualenv
+
+Criar novo arquivo
+echo\#\!$(which python3) > funcoes.py

@@ -10,3 +10,6 @@
 
 4-uva
 
+frutas2.txt
+frutas2.txt
+Laranja
