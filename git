@@ -24,6 +24,11 @@ git status
 git commit -m 'mensagem'
 git push -u origin  master
 
+#Erro ao remote git
+git remote add origin https://github.com/murilosisnando2003/python4linux.git
+git push --force origin master
+
+#Acesso negado arquivo
 chmod +x teste1.py
 
 sudo apt-get install python3-pip3
