@@ -9,6 +9,5 @@ def escrita(nome,conteudo):
  except Exception as e:
     print("Arquivo Inexistente: {}".format(nome))        
 
-
 a = escrita('frutas.txt','Acerola')
 print(a)
