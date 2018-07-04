@@ -37,3 +37,12 @@ pip3 install virtualenv
 
 Criar novo arquivo
 echo\#\!$(which python3) > funcoes.py
+
+# Biblioteca para rodar debug
+import pdb
+eduardo mendes - usando o Python debbuger
+
+--Pesquisar como usar debugger do vscode
+
+
+-- jogos  pygame.org
