@@ -1,0 +1,32 @@
+mongo
+show dbs - mostra as bases criadas
+
+criar base: use nome da base
+
+use 4linux - para usar a base
+
+insert - mongo db.pessoas.insert({'_id':1,'nome': 'pedro'})
+
+select: db.pessoas.find()
+        db.pessoas.fint().pretty()    
+        db.pessoas.find({'_id': 2})    
+
+remove: db.pessoas.remove({'_id': 1})
+
+update: db.pessoas.update({'_id':1},{'sobrenome': 'prata'})
+        db.pessoas.update({'_id':1},{'$set': {'sobrenome': 'prata'}})
+
+show tables
+show collections
+
+
+show dbs # verificar base de dados
+show tables ou show collections # verificar collections ou tabelas
+use database # se não existir a base de dados ele cria
+db.collections.insert() # inseri dados na tabela
+db.collections.update() # atualizar dados
+db.collections.find() # buscar dados
+db.collections.remove() # remover dadosexit
+
+
+mongodb compass - interface grafica mongo
