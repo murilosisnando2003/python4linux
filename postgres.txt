@@ -1,0 +1,29 @@
+root@murilo-Inspiron-5458:/home/murilo# sudo - postgres
+sudo: -: comando não encontrado
+root@murilo-Inspiron-5458:/home/murilo# su - postgres
+postgres@murilo-Inspiron-5458:~$ psql
+psql (10.4 (Ubuntu 10.4-0ubuntu0.18.04))
+Type "help" for help.
+
+postgres=# \q
+postgres@murilo-Inspiron-5458:~$ psql
+psql (10.4 (Ubuntu 10.4-0ubuntu0.18.04))
+Type "help" for help.
+
+postgres=# \dt
+Did not find any relations.
+postgres=# create user admin password '4linux';
+CREATE ROLE
+postgres=# create user admin password '4linux';^C
+postgres=# create user admin password '4linux';^C
+postgres=# 
+\du lista usuarios
+
+create database projeto owner admin;
+
+
+murilo@murilo-Inspiron-5458:~$ psql -h localhost -U admin projeto
+
+create table pessoas(id serial, nome varchar(50),email varchar(50), idade smallint, telefone varchar(12));
+
+ss -nltp
